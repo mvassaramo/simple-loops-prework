@@ -7,7 +7,7 @@ def loop_iterator(number_of_times)
   loop do
     puts phrase
     break if i < number_of_times_range
-  
+  i += 1
 end
 end
 
