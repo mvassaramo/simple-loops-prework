@@ -3,8 +3,11 @@
 def loop_iterator(number_of_times)
 
   phrase = "Welcome to Flatiron School's Web Development Course!"
-  number_of_times.times do
+  i = 0
+  loop do
     puts phrase
+    break if i < number_of_times_range
+  
 end
 end
 
