@@ -36,6 +36,9 @@ end
 
 def for_iterator(number_of_times)
 phrase = "Welcome to Flatiron School's Web Development Course!"
-
+number_of_times_range = number_of_times.to_r 
+for times in number_of_times_range
+puts phrase
+end
 end
 
